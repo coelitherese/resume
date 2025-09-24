@@ -1,0 +1,236 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding-right: 30px;
+}
+h2{
+  display: flex;
+  font-size: 175%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  display: flex;
+  font-size: large;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+  font-size: large;
+  margin-left: 45px;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-family:'Montserrat', sans-serif;
+  list-style-type: disc;
+}
+
+/* LEFT CONTAINER START */
+  .leftContainerMain{
+    display: flex;
+    flex-direction: column;
+    background-color: #094d73;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    border-right: 20px solid #094d73;
+    border-left:20px solid #094d73;
+  }
+  /* TOP START */
+    img{
+      display: flex;
+      align-self: center;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .profileImage img{
+      display: flex;
+      width: 245px;
+      height: 245px;
+      object-fit: cover;
+    }
+    .profileName{
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      margin-bottom: 15px; 
+      font-weight: 600;
+      font-size: larger;
+    }
+  /* TOP END */
+
+  /* MIDDLE START */
+    .leftContainerMiddle{
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .contactHeader{
+      display: flex;
+      background-color: #073e5c;
+      font-weight: 700;
+    }
+  /* MIDDLE END */
+
+  /* BOTTOM START */
+    .leftContainerBottom{
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .skillsHeader{
+      display: flex;
+      background-color: #073e5c;
+      font-weight: 700;
+    }
+    .skill1{
+      font-size: large;
+      margin-top: auto;
+      margin-bottom: 10px;
+      font-family:'Montserrat', sans-serif;
+      list-style-type: disc;
+
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    .skill2, .skill3{
+      font-size: large;
+      margin-top: auto;
+      margin-bottom: 10px;
+      font-family:'Montserrat', sans-serif;
+      list-style-type: disc;
+
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  /* BOTTOM END */
+/* LEFT CONTAINER END */
+
+/* RIGHT CONTAINER START */
+  .rightContainerMain{
+    flex-direction: column;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    color: black;
+    display: flex;
+    border-left: white 40px solid;
+  }
+  /* TOP START */
+    .aboutMe{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-bottom: 20px;
+    }
+  /* TOP END */
+  /* MIDDLE START */
+    .educationHeader{
+      display: flex;
+      border-bottom: 2px solid #dfe0e0;
+      border-top: 2px solid #dfe0e0;
+      font-weight: 700;
+      color: #094d73;
+      font-size: 15px;
+    }
+    .yearLevel{
+      font-weight: 600;
+    }
+    .rightContainerMiddle{
+      display: flex;
+      flex-direction: row;
+      gap: 210px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .contactEmail, .contactPhone{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .contactAddress{
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    .rightContainerMiddleRightContentOne{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+    .rightContainerMiddleRightContentTwo{
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    .rightContainerMiddleRightContentThree{
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    .rightContainerMiddleRightContentFour{
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  /* MIDDLE END */
+  /* BOTTOM START */
+    .experienceHeader{
+      display: flex;
+      border-bottom: 2px solid #dfe0e0;
+      border-top: 2px solid #dfe0e0;
+      font-weight: 700;
+      color: #094d73;
+      font-size: 15px;
+    }
+    .rightContainerBottom{
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .rightContainerBottomContentOne{
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .rightContainerBottomContentTwo{
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .rightContainerBottomContentThree{
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .jobExperience{
+      font-weight: 600;
+    }
+  /* BOTTOM END */
+/* RIGHT CONTAINER END */
