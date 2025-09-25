@@ -4,11 +4,30 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   overflow: hidden;
-  padding-right: 30px;
+  padding-right: 275px;
+  padding-left: 275px;
 }
 h2{
   display: flex;
   font-size: 175%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  display: flex;
+  font-size: 125%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+h4{
+  display: flex;
+  font-size: 135%;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: auto;
@@ -121,7 +140,6 @@ ul{
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 50px;
     color: black;
     display: flex;
     border-left: white 40px solid;
@@ -131,9 +149,16 @@ ul{
       display: flex;
       flex-direction: column;
       gap: 10px;
+      font-size: large;
       margin-top: 15px;
       margin-bottom: 15px;
       padding-bottom: 20px;
+    }
+    .aboutMeText{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 17px;
     }
   /* TOP END */
   /* MIDDLE START */
@@ -147,11 +172,12 @@ ul{
     }
     .yearLevel{
       font-weight: 600;
+      font-size: 20px;
     }
     .rightContainerMiddle{
       display: flex;
       flex-direction: row;
-      gap: 210px;
+      gap: 150px;
       margin-top: 15px;
       margin-bottom: 15px;
       padding-top: 20px;
@@ -231,6 +257,30 @@ ul{
     }
     .jobExperience{
       font-weight: 600;
+      font-size: 23px;
+    }
+    .rightContainerBottomContentOneLeft,
+    .rightContainerBottomContentTwoLeft,
+    .rightContainerBottomContentThreeLeft {
+      align-items: flex-start;
+      min-width: 120px;
+      max-width: 150px;
+      flex: 0 0 140px;
+    }
+    .rightContainerBottomContentOneRight,
+    .rightContainerBottomContentTwoRight,
+    .rightContainerBottomContentThreeRight {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 0%;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .rightContainerBottomContentOneLeft,
+    .rightContainerBottomContentTwoLeft, 
+    .rightContainerBottomContentThreeLeft
+    {
+      align-items: flex-start;
     }
   /* BOTTOM END */
 /* RIGHT CONTAINER END */

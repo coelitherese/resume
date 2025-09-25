@@ -35,7 +35,7 @@ function App() {
     function profileImage(){
     return(
       <div className="profileImage">
-        <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/469400841_1647760519113262_5283149282386151970_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFQAhnD5Lspz8FHKMeJQQMIwLLkeuEJxj_AsuR64QnGP9j-3HPNZUjHdXYjE8bjlJIj2yIM2-6yR2yciQ6cKF_U&_nc_ohc=St8LE5p6nJcQ7kNvwHR8f0X&_nc_oc=AdnwpMD6k-XnYvccuc7CVEbV3T9eYIV_RVl4jk4RcXCxNhvzHxBZowyO1oFAQp_pEfE&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_gid=xITduUO6eauEmLXhFczlOQ&oh=00_AfZqSMBE_2WKfglpFs3U6C_K7NVbSG1sO1UFu8wGYwEBzw&oe=68D952AA" image-fluid/>
+        <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/469400841_1647760519113262_5283149282386151970_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFQAhnD5Lspz8FHKMeJQQMIwLLkeuEJxj_AsuR64QnGP9j-3HPNZUjHdXYjE8bjlJIj2yIM2-6yR2yciQ6cKF_U&_nc_ohc=St8LE5p6nJcQ7kNvwHR8f0X&_nc_oc=AdnwpMD6k-XnYvccuc7CVEbV3T9eYIV_RVl4jk4RcXCxNhvzHxBZowyO1oFAQp_pEfE&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_gid=xITduUO6eauEmLXhFczlOQ&oh=00_AfZqSMBE_2WKfglpFs3U6C_K7NVbSG1sO1UFu8wGYwEBzw&oe=68D952AA"/>
       </div>
     )
   }
@@ -190,7 +190,7 @@ function App() {
       function aboutMe(){
         return(
           <div className='aboutMe'>
-            <p>Experienced graphic designer with a strong passion in design and graphics. Excels in developing carefully curated graphics and designs ensuring high standards and good quality products. With a keen eye for detail and a mastery of industry-standard software, I bring creative visions to life through compelling visual communication. My goal is to craft impactful designs that not only meet but exceed client expectations, creating a lasting impression in the market.</p>
+            <p className='aboutMeText'>Experienced graphic designer with a strong passion in design and graphics. Excels in developing carefully curated graphics and designs ensuring high standards and good quality products. With a keen eye for detail and a mastery of industry-standard software, I bring creative visions to life through compelling visual communication.</p>
           </div>
         );
       }
@@ -301,7 +301,7 @@ function App() {
       function rightContainerBottomContentOneLeft(){
         return(
           <div className='rightContainerBottomContentOneLeft'>
-            <h2>2020 - 2025</h2>
+            <h4>2020 - 2025</h4>
           </div>
         );
       }
@@ -310,7 +310,7 @@ function App() {
         return(
           <div className='rightContainerBottomContentOneRight'>
             <h2 className='jobExperience'>Freelance (Graphics, Event Staff)</h2>
-            <h2><em>Esports</em></h2>
+            <h3><em>Esports</em></h3>
             <ul>
               <li>Organized online esports tournaments</li>
               <li>Produced graphics / digital assets for the live broadcasts.</li>
@@ -331,7 +331,7 @@ function App() {
       function rightContainerBottomContentTwoLeft(){
         return(
           <div className='rightContainerBottomContentTwoLeft'>
-            <h2>2020 - 2023</h2>
+            <h4>2020 - 2023</h4>
           </div>
         );
       }
@@ -340,7 +340,7 @@ function App() {
         return(
           <div className='rightContainerBottomContentTwoRight'>
             <h2 className='jobExperience'>Graphic Designer</h2>
-            <h2><em>Sventures Gaming</em></h2>
+            <h3><em>Sventures Gaming</em></h3>
               <ul>
                 <li>Organized online esports tournaments</li>
                 <li>Produced graphics / digital assets for the live broadcasts.</li>  
@@ -361,7 +361,7 @@ function App() {
       function rightContainerBottomContentThreeLeft(){
         return(
           <div className='rightContainerBottomContentThreeLeft'>
-            <h2>2023 - 2024</h2>
+            <h4>2023 - 2024</h4>
           </div>
         );
       }
@@ -370,7 +370,7 @@ function App() {
         return(
           <div className='rightContainerBottomContentThreeRight'>
             <h2 className='jobExperience'>Graphic Designer</h2>
-            <h2><em>Esports</em></h2>
+            <h3><em>Esports</em></h3>
             <ul>
                 <li>Central Luzon Esports Organization</li>
                 <li>Dragon Esports (Wyrm, Wyvern, Pyra)</li>  
